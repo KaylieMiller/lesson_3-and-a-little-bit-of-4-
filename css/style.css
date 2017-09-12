@@ -77,7 +77,7 @@ body {
 }
 
 #main-content-wrapper {
-    background-color: papayawhip;
+    background-color: none;
     width: 100%;
     display: flex;
 }
@@ -106,12 +106,14 @@ body {
 .image-content > h4 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    color: #FBEF6B;
+    color: #904BC9;
 }
 
 .image-content > h4 > a {
-    color: #FBEF6B; 
+    color: #904BC9; 
 }
+
+/*START OVER ON LESSON4_4*/
 
 .image-content > h4 > a:hover {
     color: #99B2D4;
