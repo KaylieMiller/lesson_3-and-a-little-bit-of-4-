@@ -179,10 +179,22 @@ body {
     position: relative;
 }
 
-#favorite-sites: {
-    background-image: url(images/stock-photo1.jpeg);
+/* help w/ background */
+
+#favorite-sites {
+    background-image: url(img/computer.jpeg);
+    border-top: 5px #FBEF6B solid;
+    border-bottom: 5px #81CBC6 solid;
 }
 
+/* need A LOT of help*/
+#favorite-sites ul {
+    list-style-type:none;
+    display:flex;
+    justify-content: space-around;
+    margin:0;
+    padding:40px;
+}
 footer { 
     background-color: coral;
     margin: 0;
