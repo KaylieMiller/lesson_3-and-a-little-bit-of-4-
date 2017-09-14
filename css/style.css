@@ -2,7 +2,7 @@
 COLORS
 pale blue: #99B2D4
 purple: #904BC9
-orange:##904BC9
+tourquiose:#81CBC6
 pale yellow: #FBEF6B
 deep red: #9B2D40
 */
@@ -68,6 +68,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
+
 #middle-wrapper {
      display: flex;
 }
@@ -94,11 +95,6 @@ body {
     /* Ask for help making picture stay circular*/
 }
 
-#aside-content-wrapper {
-    background-color: plum;
-    width: 20%
-}
-
 .image-content > img {
     max-width:200px;
 }
@@ -113,8 +109,6 @@ body {
     color: #904BC9; 
 }
 
-/*START OVER ON LESSON4_4*/
-
 .image-content > h4 > a:hover {
     color: #99B2D4;
 }
@@ -122,6 +116,71 @@ body {
 #favorite-sites {
     max-width: 200px;
     padding: 20px 20px;
+}
+
+#main-content-wrapper article {
+    width:50%;
+    margin-top:100px;
+}
+
+#main-content-wrapper article h2 {
+    text-align: center;
+}
+
+#main-content-wrapper article p {
+    max-width:300px;
+    margin: 0 auto;
+}
+
+#main-content-wrapper #skills {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#main-content-wrapper #skills span {
+    font-weight: 400;
+}
+
+#aside-content-wrapper {
+    background-color: #fff;
+    width: 35%;
+    font-family: "roboto", sans-serif;
+}
+#aside-right {
+    margin: 0 50px 0 8px;
+}
+
+#aside-right h3 {
+    text-align: center;
+}
+
+#latest-work {
+    list-style-type: none;
+}
+
+#latest-work li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+#latest-work > li:before {
+    content: "";
+    border-color: transparent #904BC9;
+    border-style: solid;
+    border-width: .35em 0 .35em .45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: .9em;
+    position: relative;
+}
+
+#favorite-sites: {
+    background-image: url(images/stock-photo1.jpeg);
 }
 
 footer { 
