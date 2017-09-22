@@ -70,11 +70,11 @@ body {
 #middle-wrapper {
      display: flex;
 }
-
+/*
 .side-by-side {
     display:flex;
 }
-
+*/
 #main-content-wrapper {
     background-color: none;
     width: 100%;
@@ -113,6 +113,7 @@ body {
 #favorite-sites {
     max-width: 200px;
     padding: 20px 20px;
+
 }
 
 #main-content-wrapper article {
@@ -187,10 +188,10 @@ body {
 /* need A LOT of help*/
 #favorite-sites ul {
     list-style-type:none;
-    display:flex;
     justify-content: space-around;
     margin: 0;
     padding:40px;
+    max-width:200px;
 }
 footer { 
     background-color: #fff;
